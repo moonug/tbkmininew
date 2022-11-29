@@ -18,7 +18,9 @@
   flavor = "hold-preferred";
 };
 
-
+  chosen {
+    zmk,matrix_transform = &skeletyl_transform;
+  };
 
   behaviors {
     hm: homerow_mods {
