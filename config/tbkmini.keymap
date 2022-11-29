@@ -20,7 +20,7 @@
 
 / {
   chosen {
-    zmk,matrix_transform = &skeletyl_transform;
+    zmk,matrix_transform = &default_transform;
   };
 
   behaviors {
