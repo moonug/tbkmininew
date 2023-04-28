@@ -71,7 +71,7 @@
 //                                   |  GUI   |   MO1   |   ENT   |       |  SPC  |   BKSP  |  CAPS   |
 //                                   '--------+---------+---------'       '-------+---------+---------'
                         bindings = <
-&none  &kp ESC  &mt LALT Q  &mt LCTRL W    &lt 2 E          &lt 1 R   &mt LCTRL T   &mt LCTRL Y          &lt 1 U      &lt 2 I    &mt RCTRL O     &mt RALT P  &kp ESC  &none
+  &kp ESC  &mt LALT Q  &mt LCTRL W    &lt 2 E          &lt 1 R   &mt LCTRL T   &mt LCTRL Y          &lt 1 U      &lt 2 I    &mt RCTRL O     &mt RALT P  &kp ESC  
            &kp CAPS  &mt LALT A  &mt LCTRL S    &lt 2 D          &lt 1 F   &mt LCTRL G   &mt LCTRL H          &lt 1 J      &lt 2 K    &mt RCTRL L  &mt RALT SEMI  &kp CAPS
            &none  &mt LALT Z  &mt LCTRL X    &lt 1 C          &lt 2 V   &mt LCTRL B   &mt LCTRL N          &lt 2 M  &lt 1 COMMA  &mt RCTRL DOT  &mt RALT FSLH  &none
                                            &lt 2 TAB  &mt LSHFT SPACE  &mt LGUI RET  &mt RGUI RET  &mt RSHFT SPACE   &lt 2 BSPC
@@ -89,7 +89,7 @@ lower_layer {
 //                                   |  GUI   |         |   MO3   |       |   ,   |    .    |   ?     |
 //                                   '--------+---------+---------'       '-------+---------+---------'
                         bindings = <
-&trans   &none  &mt LALT GRAVE  &mt LCTRL UNDER  &kp SINGLE_QUOTE   &kp LEFT_BRACE  &mt LCTRL LEFT_BRACKET  &mt RCTRL RIGHT_BRACKET  &kp RIGHT_BRACE  &kp PLUS  &mt RCTRL MINUS  &mt RALT EQUAL  &none  &none
+   &trans  &mt LALT GRAVE  &mt LCTRL UNDER  &kp SINGLE_QUOTE   &kp LEFT_BRACE  &mt LCTRL LEFT_BRACKET  &mt RCTRL RIGHT_BRACKET  &kp RIGHT_BRACE  &kp PLUS  &mt RCTRL MINUS  &mt RALT EQUAL  &trans 
         &trans   &mt LALT EXCL     &mt LCTRL AT          &kp HASH         &kp DLLR         &mt LCTRL PRCNT                &kp CARET         &kp AMPS  &kp STAR         &kp LPAR        &kp RPAR  &none
         &trans          &kp N1           &kp N2            &kp N3         &kp LPAR      &mt LCTRL KP_COMMA         &mt RCTRL KP_DOT         &kp RPAR    &kp N8           &kp N9   &mt RALT BSLH  &none
                                                            &lt ADJUST TAB  &mt LSHFT SPACE                  &trans                   &trans   &mt RSHFT SPACE    &lt ADJUST BSPC
@@ -108,7 +108,7 @@ lower_layer {
 //                                   '--------+----------+----------'       '---------+----------+---------'
 
                         bindings = <
-&trans   &none     &kp KP_SLASH  &kp N7  &kp N8            &kp N9  &kp KP_MINUS  &kp C_MUTE      &kp C_VOL_DN  &kp C_VOL_UP  &kp PSCRN  &kp PAUSE_BREAK  &trans  &trans
+&trans     &kp KP_SLASH  &kp N7  &kp N8            &kp N9  &kp KP_MINUS  &kp C_MUTE      &kp C_VOL_DN  &kp C_VOL_UP  &kp PSCRN  &kp PAUSE_BREAK  &trans  
         &trans  &kp KP_MULTIPLY  &kp N4  &kp N5            &kp N6   &kp KP_PLUS    &kp LEFT          &kp DOWN        &kp UP  &kp RIGHT   &kp SCROLLLOCK  &trans
         &trans           &kp N0  &kp N1  &kp N2            &kp N3    &kp KP_DOT    &kp HOME           &kp END     &kp PG_UP  &kp PG_DN         &kp CAPS  &trans
                                          &trans  &mt LSHIFT EQUAL        &trans      &trans  &mt RSHFT DELETE        &trans
@@ -127,7 +127,7 @@ lower_layer {
 //                             '--------+---------+---------'       '--------+--------+---------'
 
                         bindings = <
-&trans  &bootloader  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bootloader  &trans
+  &bootloader  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bootloader  
          &bt BT_CLR         &none         &none         &none     &kp K_APP       &kp INS       &kp INS     &kp K_APP         &none         &none         &none   &bt BT_CLR
               &none        &kp F1        &kp F2        &kp F3        &kp F4        &kp F5        &kp F6        &kp F7        &kp F8        &kp F9       &kp F10        &none
                                                        &trans       &kp F11        &trans        &trans       &kp F12        &trans
